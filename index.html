@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to travel form </title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class ="bg" src="mc.jpg" alt="uem-kolkata">
+    <div class ="container">
+      <h1>Welcome to UEM USA TRIP plan</h1>
+    <p>Enter your details to confirm your participation in the trip</p>
+     <p>submit this form carefully</p>
+     <p class="submitm">
+        Thanks for filling this form.we are happy to see you joining with us.
+     </p>
+
+    <form action="index.php"method="post">
+        <input type="text" name="name" id="name"placeholder="Enter your name" >
+        <input type="text" name="gender" id="gender"placeholder="Enter your gender" >
+        <input type="text" name="email" id="email"placeholder="Enter your email" >
+        <input type="text" name="phone" id="phone"placeholder="Enter your phone" >
+        <textarea name="desc" id="desc" cols="30" rows="10"placeholder= "enter any other information"></textarea>
+         <button class="btn">submit</button>
+    </form>
+    
+    
+</div>
+    <script src="index.js"></script>
+    <!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'testname', '23', 'male', 'this@gmail.com', '7980589505', 'this is first php one', current_timestamp());-->
+
+</body>
+</html>
